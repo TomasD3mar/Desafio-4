@@ -6,10 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto Final</title>
     <link rel="stylesheet" href="../css/style.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body class="gridPadreMenu">
     <header>
-        <div class="logoHeader"><img src="../img/logo.jpg" alt="Logo como en casa"></div>
+        <div class="logoHeader" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><img src="../img/logo.jpg" alt="Logo como en casa"></div>
         <nav>
             <ul class="botonera">
                 <li><a href="../index.html">Inicio</a></li>
@@ -43,5 +45,8 @@
             </ul>
         </nav>
     </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script> AOS.init();</script>
 </body>
 </html>
