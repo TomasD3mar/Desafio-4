@@ -42,8 +42,18 @@ header {
 }
 
 .botonera li a {
+    display: inline-block;
     text-decoration: none;
     color: #3D2418;
+}
+
+.botonera li:hover {
+    background-color: #3D2418;
+    border: 0.2rem #F8E9DA dotted;
+}
+
+.botonera li a:hover {
+    color: #F8E9DA;
 }
 
 
