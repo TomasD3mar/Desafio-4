@@ -63,7 +63,7 @@ main {
     grid-area: main;
 }
 
-main img { 
+main div { 
     height: 50rem;
     width: 100%;
 }
