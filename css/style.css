@@ -24,7 +24,7 @@ header {
 }
 
 .logoHeader img {
-    height: 17rem;
+    height: 15rem;
     border-radius: 2rem;
 }
 
@@ -86,7 +86,7 @@ main div {
 }
 
 .sectionA p {
-    font-size: 2rem;
+    font-size: 1.7rem;
     text-align: center;
     position: relative;
     float: left;
